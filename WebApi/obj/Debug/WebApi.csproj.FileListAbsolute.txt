@@ -65,3 +65,7 @@ E:\Chandru\Projects\acxend\WebApi\obj\Debug\WebApi.csproj.CoreCompileInputs.cach
 E:\Chandru\Projects\acxend\WebApi\obj\Debug\WebApi.csproj.CopyComplete
 E:\Chandru\Projects\acxend\WebApi\obj\Debug\WebApi.dll
 E:\Chandru\Projects\acxend\WebApi\obj\Debug\WebApi.pdb
+E:\Chandru\Projects\acxend\WebApi\bin\EntityFramework.dll
+E:\Chandru\Projects\acxend\WebApi\bin\EntityFramework.SqlServer.dll
+E:\Chandru\Projects\acxend\WebApi\bin\EntityFramework.xml
+E:\Chandru\Projects\acxend\WebApi\bin\EntityFramework.SqlServer.xml
