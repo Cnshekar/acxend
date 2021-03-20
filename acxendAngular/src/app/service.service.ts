@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ServiceService {
 
-  configUrl = 'http://localhost:51262/CSV/SaveData';
+  configUrl = 'http://localhost:51262/Students/Create';
 
   constructor(private http: HttpClient) { }
 

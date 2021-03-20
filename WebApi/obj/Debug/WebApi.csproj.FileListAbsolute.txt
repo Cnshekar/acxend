@@ -28,6 +28,8 @@ E:\Chandru\Projects\acxend\WebApi\bin\roslyn\vbc.rsp
 E:\Chandru\Projects\acxend\WebApi\bin\roslyn\VBCSCompiler.exe
 E:\Chandru\Projects\acxend\WebApi\bin\roslyn\VBCSCompiler.exe.config
 E:\Chandru\Projects\acxend\WebApi\bin\Antlr3.Runtime.dll
+E:\Chandru\Projects\acxend\WebApi\bin\EntityFramework.dll
+E:\Chandru\Projects\acxend\WebApi\bin\EntityFramework.SqlServer.dll
 E:\Chandru\Projects\acxend\WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\Chandru\Projects\acxend\WebApi\bin\Microsoft.Web.Infrastructure.dll
 E:\Chandru\Projects\acxend\WebApi\bin\Newtonsoft.Json.dll
@@ -45,6 +47,8 @@ E:\Chandru\Projects\acxend\WebApi\bin\System.Web.WebPages.Deployment.dll
 E:\Chandru\Projects\acxend\WebApi\bin\System.Web.WebPages.dll
 E:\Chandru\Projects\acxend\WebApi\bin\System.Web.WebPages.Razor.dll
 E:\Chandru\Projects\acxend\WebApi\bin\WebGrease.dll
+E:\Chandru\Projects\acxend\WebApi\bin\EntityFramework.xml
+E:\Chandru\Projects\acxend\WebApi\bin\EntityFramework.SqlServer.xml
 E:\Chandru\Projects\acxend\WebApi\bin\System.Web.Http.Common.xml
 E:\Chandru\Projects\acxend\WebApi\bin\System.Web.Http.Cors.xml
 E:\Chandru\Projects\acxend\WebApi\bin\Newtonsoft.Json.xml
@@ -60,12 +64,8 @@ E:\Chandru\Projects\acxend\WebApi\bin\System.Web.WebPages.Deployment.xml
 E:\Chandru\Projects\acxend\WebApi\bin\System.Web.WebPages.Razor.xml
 E:\Chandru\Projects\acxend\WebApi\bin\Antlr3.Runtime.pdb
 E:\Chandru\Projects\acxend\WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\Chandru\Projects\acxend\WebApi\obj\Debug\WebApi.csprojAssemblyReference.cache
 E:\Chandru\Projects\acxend\WebApi\obj\Debug\WebApi.csproj.CoreCompileInputs.cache
 E:\Chandru\Projects\acxend\WebApi\obj\Debug\WebApi.csproj.CopyComplete
 E:\Chandru\Projects\acxend\WebApi\obj\Debug\WebApi.dll
 E:\Chandru\Projects\acxend\WebApi\obj\Debug\WebApi.pdb
-E:\Chandru\Projects\acxend\WebApi\bin\EntityFramework.dll
-E:\Chandru\Projects\acxend\WebApi\bin\EntityFramework.SqlServer.dll
-E:\Chandru\Projects\acxend\WebApi\bin\EntityFramework.xml
-E:\Chandru\Projects\acxend\WebApi\bin\EntityFramework.SqlServer.xml
+E:\Chandru\Projects\acxend\WebApi\obj\Debug\WebApi.csprojAssemblyReference.cache

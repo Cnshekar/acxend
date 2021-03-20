@@ -13,6 +13,8 @@ export class CSVComponent implements OnInit {
   TotalCount: number;
   public records: any[] = [];
   DataList;
+  file;
+  fileName: string;
   @ViewChild('csvReader', { static: true }) csvReader: any;
 
   constructor(private apiService: ServiceService) { }
@@ -28,6 +30,9 @@ export class CSVComponent implements OnInit {
     if (this.isValidCSVFile(files[0])) {  
   
       let input = $event.target;  
+      this.file = input.files[0];
+      this.fileName = this.file.name;
+
       let reader = new FileReader();  
       reader.readAsText(input.files[0]);  
   
@@ -50,11 +55,10 @@ export class CSVComponent implements OnInit {
     }  
   } 
 
-
   Send(){
     debugger;
 
-    this.apiService.postData("this.DataList").subscribe((res) => {
+    this.apiService.postData(this.DataList).subscribe((res) => {
       debugger;
       // this.refreshData();
       // this.showSuccess();

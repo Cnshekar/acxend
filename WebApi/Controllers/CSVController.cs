@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Mvc;
 using WebApi.Models;
 
@@ -14,7 +15,8 @@ namespace WebApi.Controllers
     {
         private acxendEntities db = new acxendEntities();
         // [CSV/SaveData]
-        public ActionResult SaveData(string student)
+        [EnableCors(origins: "http://localhost:4200/", headers: "*", methods: "*")]
+        public ActionResult SaveData([FromBody] List<Student> student)
         {
             if (!ModelState.IsValid)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);

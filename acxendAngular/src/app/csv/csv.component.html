@@ -1,7 +1,24 @@
-<input type="file" #csvReader name="Upload CSV" id="txtFileUpload" (change)="uploadListener($event)" accept=".csv" /> 
+<div class="minimalistBlack">
+  <h4>Application Name</h4>
+  <br>
+  <div class="minimalistBlack">
+  <div class="row">
+    <div class="col-sm-1">
+    <h6>Upload File</h6>
+  </div>
+  <div class="col-sm-11">
+    <input type="file" #csvReader name="Upload CSV" id="txtFileUpload" (change)="uploadListener($event)" hidden accept=".csv" /> 
+    <input [(ngModel)]="fileName" /> &nbsp;
+    <button type="button" (click)="csvReader.click()">Load</button>
+  </div>
+</div>
+  </div>
+</div>
+<br>
+
 <div class="row">
   <div class="col-sm-3">
-<table border="1">
+<table class="minimalistBlack">
   <tr><p>No of Students: {{TotalCount}}</p></tr>  
 </table>  
 </div>
@@ -24,4 +41,5 @@
 </table>  
 </div>
 </div> 
+<br>
 <button (click)="Send()">Send</button>
